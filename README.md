@@ -36,6 +36,7 @@ Registeration Number :212221040171
 ```
 
 ## Activity_Main.XML :
+```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -78,9 +79,9 @@ Registeration Number :212221040171
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
+```
 ## MainActivity.Java:
-
+```
 package com.example.gui_components;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -141,7 +142,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 }
-
+```
 ## OUTPUT
 
 ## Initial UI:
